@@ -1,5 +1,6 @@
-#navBar{
-    background-color: black;
+/* nav Bar */
+#navBar1{
+    background-color: #0b0c0d;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -9,6 +10,19 @@
     padding-left: 50px;
     padding-right: 50px;
 
+}
+#navBar{
+    background-color: #0b0c0d;
+    display: flex;
+    flex-direction: column;
+}
+
+#horizontal{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#horizontal hr{
+    color: gray;
 }
 nav{
     display: flex;
@@ -23,3 +37,36 @@ nav>div{
     font-weight: bolder;
 }
 
+/* landing page */
+#landing{
+    background-color: #0b0c0d;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#text{
+    padding-right: 400px;
+}
+#text>h1{
+    font-size: small;
+    color: gray;
+}
+#text>h2{
+    font-size: 50px;
+}
+#text>button{
+    background-color: #ed9b58;
+    color: white;
+    border-style: none;
+    height: 40px;
+    width: 150px;
+}
+#image{
+    margin-left: -300px;
+    margin-top: -30px;
+    
+}

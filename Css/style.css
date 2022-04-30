@@ -1,0 +1,25 @@
+#navBar{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    height: 60px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+
+}
+nav>div{
+    margin-left: 20px;
+}
+#title>h1{
+    font-size: 27px;
+    font-weight: bolder;
+}
+

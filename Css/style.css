@@ -32,10 +32,24 @@ nav{
 nav>div{
     margin-left: 20px;
 }
+nav>div>a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
 #title>h1{
     font-size: 27px;
     font-weight: bolder;
+    font-family: 'Sen', sans-serif;
 }
+nav>div>a:hover{
+    color: white;
+    text-decoration: underline solid #ed9b58;
+}
+#shopcart>a:hover{
+    text-decoration: underline solid #ed9b58;
+}
+
 
 /* landing page */
 #landing{

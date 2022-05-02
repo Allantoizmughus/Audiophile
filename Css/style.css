@@ -91,15 +91,46 @@ nav>div>a:hover{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 250px;
 }
 .product{
-    margin-left: 30px;
+    /* margin-left: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; */
+    background: #f2f2f2;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    margin: 10px;
 }
-.product>img{
-    
+.product>.image>img{
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h4{
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  bottom: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.28571px;
+}
+.shop{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
 }

@@ -73,7 +73,7 @@ nav>div>a:hover{
     font-size: 50px;
 }
 #text>button{
-    background-color: #ed9b58;
+    background-color: #d87d4a;
     color: white;
     border-style: none;
     height: 40px;
@@ -91,20 +91,22 @@ nav>div>a:hover{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 250px;
+    margin-top: 200px;
 }
 .product{
     /* margin-left: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center; */
-    background: #f2f2f2;
+    background: white;
     width: 350px;
     height: 200px;
     text-align: center;
     position: relative;
     border-radius: 10px;
     margin: 10px;
+    border: 2px solid whitesmoke;
+    box-shadow: 5px 5px 5px 5px #888888 ;
 }
 .product>.image>img{
     position: absolute;
@@ -132,5 +134,48 @@ h4{
     line-height: 18px;
     letter-spacing: 1px;
     mix-blend-mode: normal;
-    opacity: 0.5;
+    
+}
+/* styling the speaker Dispala */
+#speakerDisplay1{
+    width: 1090px;
+    height: 450px;
+    background-color:  #d87d4a;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: hidden;
+    background-image: url();
+}
+#label{
+    font-size: 60px;
+    color: white;
+}
+#speakerDetails{
+    color: white;
+    width: 350px;
+
+}
+#speakerDetails>button{
+    background-color: black;
+    color: white;
+    border-style: none;
+    height: 40px;
+    width: 150px;
+}
+#image1{
+    margin-bottom: -55px;
+    margin-left: -150px;
+    margin-right: -50px;
+}
+#speakerDisplay1>svg{
+    margin-left: -600px;
+    margin-bottom: -330px;
+    
+    
 }

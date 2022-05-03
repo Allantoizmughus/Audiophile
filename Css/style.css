@@ -196,6 +196,7 @@ h4{
 #speakerDisplay2>#label2{
     color: black;
     font-size: 32px;
+    font-weight: 500;
 }
 #speakerDisplay2>button{
     margin-top: 15px;
@@ -216,8 +217,8 @@ h4{
     justify-content: space-between;
 }
 #earphonesDetails{
-    width: 500px;
-    height: 250px;
+    width: 535px;
+    height: 270px;
     background-color: #f2f2f2;
     border-radius: 10px;
     display: flex;
@@ -230,6 +231,7 @@ h4{
 }
 #earphonesDetails>#label3{
     font-size: 30px;
+    font-weight: 500;
     
 }
 #earphonesDetails>button{
@@ -237,4 +239,39 @@ h4{
     height: 40px;
     margin-top: 15px;
     border: 2px solid black;
+}
+
+/* Styling audio gear div elements */
+#audioGear{
+    width: 1090px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#audioGearDetails{
+    width: 535px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 130px;
+    
+
+}
+#audioGearDetails>h3>span{
+    color: #D87D4A;
+}
+#audioGearDetails>h3{
+    font-size: 30px;
+}
+#audioGearDetails>p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#audioGearImage>img{
+    border-radius: 10px;
 }

@@ -275,3 +275,42 @@ h4{
 #audioGearImage>img{
     border-radius: 10px;
 }
+
+/* styling footer  */
+#footer{
+    background-color: #0b0c0d;
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#footer1{
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+#navBar2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    color: white;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 30px;
+}
+#footNav{
+    display: flex;
+    flex-direction: row;
+}
+#footNav>div{
+    margin-left: 20px;
+}
+#footNav>div>a{
+    text-decoration: none;
+    color: white;
+}
+#footNav>div>a:hover{
+    text-decoration: underline solid #d87d4a ;
+}

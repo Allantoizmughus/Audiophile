@@ -181,7 +181,7 @@ h4{
 
 /* Styling  Speaker Display 2*/
 #speakerDisplay2{
-    background-image: url("/SpeakerTable.png");
+    background-image: url("../SpeakerTable.png");
     width: 1090px;
     height: 280px;
     margin-top: 30px;

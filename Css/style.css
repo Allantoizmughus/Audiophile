@@ -204,3 +204,37 @@ h4{
     border: 2px solid black;
     background-color: transparent;
 }
+
+/* styling Earphones display elements */
+#earphonesDisplay{
+    width: 1090px;
+    height: 28opx;
+    margin-left: 100px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#earphonesDetails{
+    width: 500px;
+    height: 250px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 60px;
+}
+#earphonesDisplay>#image2>img{
+    border-radius: 10px;
+}
+#earphonesDetails>#label3{
+    font-size: 30px;
+    
+}
+#earphonesDetails>button{
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    border: 2px solid black;
+}

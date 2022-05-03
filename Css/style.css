@@ -246,7 +246,7 @@ h4{
     width: 1090px;
     height: 300px;
     margin-left: 100px;
-    margin-top: 30px;
+    margin-top: 170px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -313,4 +313,35 @@ h4{
 }
 #footNav>div>a:hover{
     text-decoration: underline solid #d87d4a ;
+}
+
+#foot2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#foot2Para{
+    width: 535px;
+    color: white;
+}
+#socials{
+    width: 535px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+#socials>div>img{
+    background-color: white;
+    margin: 10px;
+}
+#socials>div>img:hover{
+    background-color: #d87d4a;
+}
+
+#foot3{
+    padding-left: 150px;
+    color: white;
 }

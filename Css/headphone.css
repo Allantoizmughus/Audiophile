@@ -54,4 +54,27 @@ nav>div>a:hover{
 #newProduct{
     display: flex;
     flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 30px;
+}
+#backBtn>a{
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 100px;
+    color: black;
+    font-weight: bold;
+}
+#backBtn{
+    margin-top: 40px;
+}
+#backBtn>a:hover{
+    color: #d87d4a;
+}
+#description{
+    margin-left: 100px;
+    padding-right: 100px;
+}
+#description>h4{
+    color: #ed9b58;
 }

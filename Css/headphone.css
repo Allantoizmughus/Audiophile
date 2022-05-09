@@ -112,3 +112,27 @@ nav>div>a:hover{
 #cartBtn>#addCart:hover{
     color: #0b0c0d;
 }
+
+/* Featuring div */
+#features{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+#paragraphs{
+    width: 650px;
+    margin-left: 100px;
+}
+#accessories{
+    width: 500px;
+    margin-left: 100px;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+}
+.items>span{
+    margin-right: 30px;
+    font-weight: bold;
+    color: #d87d4a;
+}

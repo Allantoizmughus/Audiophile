@@ -78,3 +78,36 @@ nav>div>a:hover{
 #description>h4{
     color: #ed9b58;
 }
+
+/* The cart buttons */
+#cartBtn{
+    display: flex;
+    flex-direction: row;
+}
+#quantityBtn{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    background-color: #f2f2f2;
+}
+#quantityBtn>h2{
+    font-size: 15px;
+    margin: 10px;
+}
+#quantityBtn>button{
+    border-style: none;
+    background-color: transparent;
+    margin: 5px;
+}
+#quantityBtn>button:hover{
+    border: 2px solid whitesmoke;
+}
+#cartBtn>#addCart{
+    border-style: none;
+    background-color: #d87d4a;
+    color: white;
+    padding: 10px;
+}
+#cartBtn>#addCart:hover{
+    color: #0b0c0d;
+}

@@ -136,3 +136,22 @@ nav>div>a:hover{
     font-weight: bold;
     color: #d87d4a;
 }
+
+/* gallery display */
+#galleryDisplay{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+#userPic{
+    margin-right: 50px;
+}
+#userPic>div>img{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#imgHp>img{
+    margin-top: 20px;
+    border-radius: 10px;
+}

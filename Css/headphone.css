@@ -155,3 +155,35 @@ nav>div>a:hover{
     margin-top: 20px;
     border-radius: 10px;
 }
+
+/* Product list */
+#ymal{
+    text-align: center;
+    margin-top: 80px;
+}
+#products2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.productItem{
+    margin-right: 75px;
+}
+.productItem>div>img{
+    border-radius: 5px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+.name>button{
+    border-style: none;
+    background-color: #d87d4a;
+    color: white;
+    width: 170px;
+    height: 40px;
+    margin-top: 10px;
+}

@@ -136,6 +136,16 @@ h4{
     mix-blend-mode: normal;
     
 }
+.product>.shop>a{
+    text-decoration: none;
+    color: #0b0c0d;
+}
+.product>.shop>a:hover{
+    color: #D87D4A;
+    font-size: 15px;
+}
+
+
 /* styling the speaker Dispalay 1 */
 #speakerDisplay1{
     width: 1090px;
@@ -345,6 +355,12 @@ h4{
 #foot3{
     padding-left: 150px;
     color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    border-radius: 5px;
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////// */

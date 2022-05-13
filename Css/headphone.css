@@ -70,6 +70,7 @@ nav>div>a:hover{
 }
 #backBtn>a:hover{
     color: #d87d4a;
+    font-size: 20px;
 }
 #description{
     margin-left: 100px;
@@ -240,6 +241,7 @@ nav>div>a:hover{
 }
 .shop2>a:hover{
     color:  #d87d4a;
+    font-size: 15px;
 }
 
 /* Styling audio gear div elements */
@@ -346,4 +348,10 @@ nav>div>a:hover{
 #foot3{
     padding-left: 150px;
     color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    border-radius: 5px;
 }

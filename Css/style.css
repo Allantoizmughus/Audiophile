@@ -162,7 +162,7 @@ h4{
     overflow: hidden;
     background-image: url();
 }
-#label{
+#speakerDetails>h5{
     font-size: 60px;
     color: white;
 }
@@ -177,11 +177,17 @@ h4{
     border-style: none;
     height: 40px;
     width: 150px;
+    font-weight: 500;
 }
 #image1{
     margin-bottom: -55px;
     margin-left: -150px;
     margin-right: -50px;
+   
+}
+#speakerDisplay1>#image1>img{
+    width: 800px;
+    height: 800px;
 }
 #speakerDisplay1>svg{
     margin-left: -600px;
@@ -238,6 +244,8 @@ h4{
 }
 #earphonesDisplay>#image2>img{
     border-radius: 10px;
+    width: 535px;
+    height: 270px;
 }
 #earphonesDetails>#label3{
     font-size: 30px;
@@ -284,6 +292,8 @@ h4{
 }
 #audioGearImage>img{
     border-radius: 10px;
+    width: 535px;
+    height: 600px;
 }
 
 /* styling footer  */
@@ -363,4 +373,162 @@ button:hover{
     border-radius: 5px;
 }
 
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
 /* ////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (max-width:768px){
+    *{
+        margin-left: 0;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    /* nav */
+    nav{
+        display: none;
+    }
+
+    /* Landing */
+    #image{
+        display: none;
+    }
+    #landing{
+        background-image: url("Headphones1.jpg");
+        background-position: center;
+    }
+    /* products Gallery */
+    #productsGallery{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+        width: 670px;
+    }
+    .product{
+        margin-bottom: 40px;
+        width: 320px;
+    }
+    #speakerDisplay1{
+        display: flex;
+        flex-direction: column;
+        width: 670px;
+        height: 650px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+    }
+    #speakerDisplay1>#image1{
+        display: block;
+        margin-left: -40px;
+    }
+    #speakerDisplay1>#image1>img{
+        width: 400px;
+        height: 400px;
+    }
+    #speakerDisplay1>#speakerDetails{
+        margin-top: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #speakerDisplay1>svg{
+        margin-left: 200px;
+        margin-top: -400px;
+    }
+
+    #speakerDisplay2{
+        width: 670px;
+        height: 400px;
+        background-position: center;
+        background-size: cover;
+        margin-left: 20px;
+    }
+
+    #earphonesDisplay{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 100px;
+        margin-left: 20px;
+        width: 670px;
+        gap: 20px;
+    }
+    #earphonesDisplay>#image2>img{
+        margin-bottom: 15px;
+        width: 320px;
+        height: 350px;
+    }
+    #earphonesDetails{
+        width: 320px;
+        height: 350px;
+    }
+
+    #audioGear{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 500px;
+        margin-left: 20px;
+    }
+    #audioGearImage>img{
+        width: 670px;
+        height: 350px;
+    }
+    #audioGearDetails{
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 670px;
+        margin-left: 70px;
+    }
+    #audioGearDetails>h3{
+        font-size: 45px;
+        margin-top: 25px;
+
+    }
+    #audioGearDetails>p{
+        width: 620px;
+    }
+
+    /* Footer */
+    #footer{
+        margin-top: 20px;
+    }
+    #foot1>#navBar2{
+        display: flex;
+        flex-direction: column;
+    }
+    #footNav{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    #foot2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #foot2Para{
+        text-align: center;
+        width: 400px;
+    }
+    #foot2>#socials{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 400px;
+    }
+    #foot3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+}

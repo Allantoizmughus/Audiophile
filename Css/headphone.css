@@ -369,6 +369,7 @@ button:hover{
     transform: scale(1.05);
     border-radius: 5px;
 }
+
 /* ///////////////////////////////////////////////////////////////////////////////////// */
 /* //////////////////////////////////////////////////////////////////////////////////// */
 @media only screen and (max-width:768px){
@@ -540,3 +541,147 @@ button:hover{
     }
 }
 
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (max-width:600px){
+    body{
+        margin: 0px;
+    }
+    #newProduct{
+        display: flex;
+        flex-direction: column;
+        width: 590px;
+        padding: 0px;
+    }
+    #newProduct>#image3>img{
+        width: 550px;
+        height: 500px;
+        
+    }
+
+    #newProduct>#description{
+        margin-left: -160px;
+    }
+    #newProduct>#description>h4{
+        font-size: 30px;    
+        letter-spacing: 5px;
+        font-weight: 300;
+    }
+    #newProduct>#description>h1{
+        font-size: 30px;
+    }
+    #newProduct>#description>p{
+        font-size: 18px;
+        width: 550px;
+    }
+    #quantityBtn>h2{
+        font-size: 22px;
+    }
+    #cartBtn>#quantityBtn>button{
+        font-size: 18px;
+    }
+    #cartBtn>#addCart{
+        font-size: 15px;
+    }
+
+    #features{
+        width: 590px;
+    }
+    #features>#paragraphs{
+        width: 550px;
+    }
+    #features>#paragraphs>p{
+        width: 550px;
+        margin-left: 20px;
+        font-size: 18px;
+    }
+    #features>#accessories{
+        margin-left: 200px;
+    }
+    #accessories{
+        width: 400px;
+    }
+    #accessories>.items{
+        font-size: 18px;
+    }
+
+    #galleryDisplay{
+        width: 590px;
+        margin: 0px;
+        padding: 0px;
+    }
+    #userPic{
+        width: 550px;
+        margin-right: 0px;
+        margin-left: 20px;
+        padding-left: 0px;
+        gap: 10px;
+    }
+    #userPic>div>img{
+        width: 270px;
+        height: 250px;
+    }
+    #imgHp>img{
+        width: 550px;
+    }
+
+    #products2{
+        width: 590px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .productItem{
+        width: 500px;
+        height: 450px;
+        margin-bottom: 100px;
+    }
+    .productItem>div>img{
+        width: 500px;
+        height: 400px;
+    }
+    .name>h3{
+        font-size: 30px;
+        margin: 10px 0px;
+    }
+    .name>button{
+        height: 50px;
+        font-size: 15px;
+    }
+
+    #products3{
+        gap: 5px;
+        margin-left: 20px;
+    }
+    .productItem2{
+        margin: 0px;
+    }
+    .shop2>a{
+        font-size: 17px;
+    }
+
+    #audioGear2{
+        width: 590px;
+        padding: 0px;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+    #audioGearDetails{
+        width: 540px;
+        margin-left: 20px;
+    }
+    #audioGearImage{
+        width: 540px;
+        margin-left: 20px;
+    }
+    #audioGearImage>img{
+        width: 540px;
+        margin: 0px;
+    }
+    #audioGearDetails>h3{
+        font-size: 25px;
+        margin: 10px 0px;
+    }
+} 

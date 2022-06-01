@@ -46,7 +46,7 @@ nav>div>a:hover{
     color: white;
     text-decoration: underline solid #ed9b58;
 }
-#shopcart>a:hover{
+#navBar1>#shopCart>a:hover{
     text-decoration: underline solid #ed9b58;
 }
 
@@ -612,7 +612,7 @@ button:hover{
 
     /* Dropdown Menu */
     #dropDown{
-        margin-top: -50px;
+        margin-top: 0px;
         margin-left: 10px;
     }
     #navIcon{
@@ -629,6 +629,10 @@ button:hover{
 @media only screen and (max-width:600px){
     #landing{
         border-style: none;
+    }
+    #container{
+        margin: 0px;
+        padding: 0px;
     }
 
     #productsGallery{
@@ -659,6 +663,7 @@ button:hover{
 
     #speakerDisplay1{
         width: 550px;
+        padding: 0px;
     }
     #speakerDisplay1>#image1>img{
         width: 400px;
@@ -673,17 +678,18 @@ button:hover{
         margin-bottom: 30px;
     }
     #speakerDisplay1>svg{
-        width: 600px;
+        width: 570px;
         height: 600px;
-        margin-left: -40px;
+        margin-left: 0px;
 
     }
     #speakerDisplay1>svg>g>circle{
-        margin-left: 300px;
+        margin-left: 280px;
     }
     
     #speakerDisplay2{
         width: 550px;
+        padding: 0px;
     }
     #earphonesDisplay{
         width: 550px;
@@ -699,7 +705,9 @@ button:hover{
     }
     #earphonesDisplay>#earphonesDetails{
         width: 550px;
+        padding: 0px;
     }
+
     #earphonesDetails>#label3{
         font-size: 40px;
     }
@@ -717,7 +725,7 @@ button:hover{
         margin-left: 0px;
     }
     #audioGearImage{
-        width: 590px;
+        width: 550px;
     }
     #audioGearImage>img{
         width: 550px;
@@ -733,7 +741,7 @@ button:hover{
 
     /* Dropdown Menu */
     #dropDown{
-        margin-top: -50px;
+        margin-top: 0px;
         margin-left: 10px;
     }
     #navIcon{

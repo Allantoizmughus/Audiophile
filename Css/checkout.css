@@ -1,0 +1,167 @@
+/* nav Bar */
+#navBar1{
+    background-color: #0b0c0d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    height: 60px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+#navBar{
+    background-color: #0b0c0d;
+    display: flex;
+    flex-direction: column;
+}
+
+#horizontal{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#horizontal hr{
+    color: gray;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+
+}
+nav>div{
+    margin-left: 20px;
+}
+nav>div>a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+#title>h1{
+    font-size: 27px;
+    font-weight: bolder;
+    font-family: 'Sen', sans-serif;
+}
+nav>div>a:hover{
+    color: white;
+    text-decoration: underline solid #ed9b58;
+}
+#navBar1>#shopCart>a:hover{
+    text-decoration: underline solid #ed9b58;
+}
+#navIcon{
+    display: none;
+}
+#dropDown{
+    display: none;
+}
+
+/* Main Container */
+#container{
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: row;
+}
+
+#container1{
+    background-color: white;
+    width: 600px;
+    height: auto;
+    margin: 20px;
+}
+#container1>h1{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+#form1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 20px;
+}
+#form2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#billing>h3{
+    font-size: 18px;
+    color: #ed9b58;
+    margin-left: 20px;
+}
+
+#form3{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#form4{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 20px;
+}
+#shipping>h3{
+    font-size: 18px;
+    color: #ed9b58;
+    margin-left: 20px;
+}
+#form5{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#form7{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#form6{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+#payment>h3{
+    font-size: 18px;
+    color: #ed9b58;
+    margin-left: 20px;
+}
+#payment>h5{
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+#payment{
+    margin-top: 20px;
+}
+#emoney{
+    margin-right: 10px;
+}
+#cash{
+    margin-right: 10px;
+}
+
+#form8{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+label{
+    font-weight: 600;
+}
+#container2{
+    width: 400px;
+    height: auto;
+    background-color: white;
+    margin: 20px;
+}
+

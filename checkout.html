@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/checkout.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="Js/script.js"></script>
+    <title>Audiophile</title>
+</head>
+<body>
+    <div id="navBar">
+        <div id="navBar1">
+            <div id="navIcon"><a href="#"><i class="fa fa-bars" ></i></a></div>
+            <div id="title"><h1>audiophile</h1></div>
+            <nav>
+            <div><a href="index.html">HOME</a></div>
+            <div><a href="headphone.html">HEADPHONES</a></div>
+            <div><a href="#">SPEAKERS</a></div>
+            <div><a href="#">EARPHONES</a></div>
+        </nav>
+        <div id="shopcart"><a href="#"><img src="shopping-cart-64.png" height="25px" width="25px"></a></div>
+    </div>
+
+    <div id="dropDown">
+
+        <div id="dropMenu">
+            <div><a href="#">HOME</a></div>
+            <div><a href="headphone.html">HEADPHONES</a></div>
+            <div><a href="#">SPEAKERS</a></div>
+            <div><a href="#">EARPHONES</a></div>
+        </div>
+    </div>
+
+    <div id="horizontal"><hr></div>
+    </div>
+
+    <div id="container">
+        <div id="container1">
+            <h1>CHECKOUT</h1>
+
+            <div id="billing">
+            <h3>BILLING DETAILS</h3>
+            <form id="form1" action="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input id="name" class="form-control" type="text" placeholder="Allan Mugweru">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address </label>
+                    <input id="email" class="form-control" type="text" placeholder="@allanmgmail.com">
+                </div>
+
+            </form>
+            <form  id="form2" action="post">
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" class="form-control" placeholder="+254 763000000" type="text">
+                </div>
+            </form>
+        </div>
+
+        <div id="shipping">
+            <h3>SHIPPING INFO</h3>
+            <form id="form3" action="post">
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <input id="address" class="form-control" placeholder="1234 West Point" type="text">
+                </div>
+            </form>
+
+            <form id="form4" action="post">
+                <div class="form-group">
+                    <label for="zip">ZIP Code</label>
+                    <input id="zip" class="form-control" placeholder="+254" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <input id="city" class="form-control" placeholder="Nairobi" type="text">
+                </div>
+            </form>
+
+            <form id="form5" action="post">
+                <div class="form-group">
+                    <label for="country">Country</label>
+                    <input id="country" class="form-control" placeholder="Kenya" type="text">
+                </div>
+            </form>
+        </div>
+
+        <div id="payment">
+            <h3>PAYMENT DETAILS</h3>
+            <h5>Payment Method</h5>
+            <form  id="form6" action="post">
+                <div class="form-group">
+                    <label class="form-control" for="cash">
+                        <input id="cash" type="radio">
+                        Cash on Delivery
+                    </label>
+                </div>
+            </form>
+
+            <form id="form7" action="post">
+                <div class="form-group">
+                    <label class="form-control" for="emoney">
+                        <input id="emoney" type="radio">
+                        e-Money
+                    </label>
+                </div>
+            </form>
+
+            <form id="form8" action="post">
+                <div class="form-group">
+                    <label for="enumber">e-Money Number</label>
+                    <input id="enumber" class="form-control" placeholder="373829" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="epin">e-Money Pin</label>
+                    <input id="epin" class="form-control" placeholder="3474" type="text">
+                </div>
+            </form>
+            
+        </div>
+
+        </div>
+
+        <div id="container2">
+            <h1>SUMMARY</h1>
+            
+        </div>
+
+    </div>
+    
+</body>
+</html>

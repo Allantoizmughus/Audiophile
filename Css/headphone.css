@@ -46,8 +46,16 @@ nav>div>a:hover{
     color: white;
     text-decoration: underline solid #ed9b58;
 }
-#shopcart>a:hover{
+#shopCart>a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+#shopCart>a:hover{
     text-decoration: underline solid #ed9b58;
+    color: #d87d4a;
+    cursor: pointer;
+    font-size: 27px;
 }
 
 /* New Product Display Styling */
@@ -108,13 +116,17 @@ nav>div>a:hover{
 #quantityBtn>button:hover{
     border: 2px solid whitesmoke;
 }
+#cartBtn>#addCart>a{
+    text-decoration: none;
+    color: white;
+}
 #cartBtn>#addCart{
     border-style: none;
     background-color: #d87d4a;
     color: white;
     padding: 10px;
 }
-#cartBtn>#addCart:hover{
+#cartBtn>#addCart>a:hover{
     color: #0b0c0d;
 }
 
@@ -575,9 +587,10 @@ button:hover{
         padding-left: 0;
     }
 
-     /* Dropdown Menu */
-     #dropDown{
-        margin-top: -50px;
+    
+    /* Dropdown Menu */
+    #dropDown{
+        margin-top: 0px;
         margin-left: 10px;
     }
     #navIcon{

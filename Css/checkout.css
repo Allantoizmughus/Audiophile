@@ -49,12 +49,6 @@ nav>div>a:hover{
 #navBar1>#shopCart>a:hover{
     text-decoration: underline solid #ed9b58;
 }
-#navIcon{
-    display: none;
-}
-#dropDown{
-    display: none;
-}
 
 /* Main Container */
 #container{
@@ -69,6 +63,7 @@ nav>div>a:hover{
     height: auto;
     margin: 20px;
     margin-left: 130px;
+    margin-bottom: 40px;
 }
 #container1>h1{
     margin-left: 20px;
@@ -190,8 +185,14 @@ label{
 .order>.price>p{
     font-size: 12px;
 }
-.order>.quantity{
-    margin-left: 200px;
+.order>#qnt1{
+    margin-left: 220px;
+}
+.order>#qnt2{
+    margin-left: 220px;
+}
+.order>#qnt3{
+    margin-left: 225px;
 }
 
 #total{
@@ -244,3 +245,220 @@ label{
     background-color: #d87d4a;
 }
 
+
+/* styling footer  */
+#footer{
+    background-color: #0b0c0d;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#footer1{
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+#navBar2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    color: white;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 30px;
+}
+#footNav{
+    display: flex;
+    flex-direction: row;
+}
+#footNav>div{
+    margin-left: 20px;
+}
+#footNav>div>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+#footNav>div>a:hover{
+    text-decoration: underline solid #d87d4a ;
+}
+
+#foot2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#foot2Para{
+    width: 535px;
+    color: white;
+}
+#socials{
+    width: 535px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+#socials>div>img{
+    background-color: white;
+    margin: 10px;
+}
+#socials>div>img:hover{
+    background-color: #d87d4a;
+}
+
+#foot3{
+    padding-left: 150px;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    border-radius: 5px;
+}
+
+/* DROPDWON MENU AND HUMBERGER ICON */
+#navIcon>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#navIcon>a:hover{
+    color: #D87D4A;
+}
+#dropMenu{
+    display: none;
+    position: absolute;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: white;
+}
+#dropMenu>div>a{
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    color: #0b0c0d;
+    padding: 12px 16px;
+    float: none;
+}
+#dropMenu>div>a:hover{
+    background-color: #d87d4a;
+}
+#dropDown{
+    overflow: hidden;
+}
+#navIcon{
+    display: none;
+}
+
+/* WEB RESPONSIVENESS///////////////////////////////////////////////////////////////////////////////////////////////// */
+/* TABLET SCREEN///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media only screen and (max-width:768px){
+    #container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #container1{
+        margin-left: 60px;
+    }
+
+    #container2{
+        margin-left: 160px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    /* Footer */
+    #footer{
+        margin-top: 20px;
+    }
+    #foot1>#navBar2{
+        display: flex;
+        flex-direction: column;
+    }
+    #footNav{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    #foot2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #foot2Para{
+        text-align: center;
+        width: 400px;
+    }
+    #foot2>#socials{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 400px;
+    }
+    #foot3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    /* Dropdown Menu */
+    #dropDown{
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    #navIcon{
+        display: block;
+    }
+    #dropMenu{
+        display: none;
+        margin-top: 40px;
+    }
+} 
+
+/* MOBILE SCREEN/////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media only screen and (max-width:600px){
+    #container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #container1{
+        width: 560px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #container2{
+        margin-left: 110px;
+    }
+
+    /* Dropdown Menu */
+    #dropDown{
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    #navIcon{
+        display: block;
+    }
+    #dropMenu{
+        display: none;
+        margin-bottom: 40px;
+    }
+}

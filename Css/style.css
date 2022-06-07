@@ -46,8 +46,10 @@ nav>div>a:hover{
     color: white;
     text-decoration: underline solid #ed9b58;
 }
-#navBar1>#shopCart>a:hover{
+#navBar1>#shopCart>a>img:hover{
     text-decoration: underline solid #ed9b58;
+    color: #d87d4a;
+    transform: scale(1.05);
 }
 
 

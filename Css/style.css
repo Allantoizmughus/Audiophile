@@ -96,10 +96,6 @@ nav>div>a:hover{
     margin-top: 200px;
 }
 .product{
-    /* margin-left: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; */
     background: white;
     width: 350px;
     height: 200px;
@@ -152,7 +148,7 @@ h4{
 #speakerDisplay1{
     width: 1090px;
     height: 450px;
-    background-color:  #d87d4a;
+    background-color:  #D87D4A;
     margin-left: 100px;
     display: flex;
     flex-direction: row;
@@ -484,11 +480,11 @@ button:hover{
     #speakerDisplay1{
         display: flex;
         flex-direction: column;
-        width: 670px;
+        width: 640px;
         height: 650px;
         justify-content: center;
         align-items: center;
-        margin-left: 20px;
+        margin-left: 0px;
     }
     #speakerDisplay1>#image1{
         display: block;
@@ -516,7 +512,7 @@ button:hover{
     }
 
     #speakerDisplay2{
-        width: 670px;
+        width: 630px;
         height: 400px;
         background-position: center;
         background-size: cover;
@@ -563,7 +559,8 @@ button:hover{
         justify-content: center;
         text-align: center;
         width: 630px;
-        margin-left: 70px;
+        margin-left: 20px;
+        padding: 0px;
     }
     #audioGearDetails>h3{
         font-size: 45px;
@@ -752,5 +749,98 @@ button:hover{
     #dropMenu{
         display: none;
         margin-bottom: 40px;
+    }
+}
+
+/* Small phones media Query /////////////////////////////////////////////////////////////////////////////////////////*/
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (max-width:420px){
+    *{
+        margin-left: 10px;
+    }
+    #navBar{
+        margin: 0px;
+    }
+    #landing{
+        margin: 0px;
+    }
+    #container{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #productsGallery{
+        max-width: 100%;
+    }
+    .product{
+        max-width: 360px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .product>h4{
+        top: 100px;
+    }
+    .product>.shop{
+        top: 160px;
+    }
+    #speakerDisplay1{
+        max-width: 360px;
+        margin-right: 0;
+        margin-left: 0px;
+    }
+    #speakerDisplay1>svg{
+        width: 370px;
+        height: 600px;
+        margin-left: 0px;
+
+    }
+    #speakerDisplay2{
+        max-width: 360px;
+        margin-left: 0px;
+    }
+    #earphonesDisplay{
+        max-width: 370px;
+        margin-left: 0px;
+        margin-bottom: 200px;
+        gap: 0px;
+    }
+
+    #earphonesDisplay>#image2>img{
+        width: 360px;
+        margin-bottom: 0px;
+    }
+    #earphonesDisplay>#earphonesDetails{
+        width: 360px;
+        padding: 0px;
+        margin-top: 0px;
+    }
+    #audioGear{
+        max-width: 370px;
+        margin-left: 0px;
+        margin-top: 400px;
+    }
+    #audioGearDetails{
+        max-width: 360px;
+    }
+    #audioGearDetails>h3{
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    #audioGearDetails>p{
+        width: fit-content;
+    }
+    #audioGearImage{
+        max-width: 370px;
+    }
+    #audioGearImage>img{
+        max-width: 360px;
+    }
+    #foot2Para{
+        width: 375px;
+    }
+    #foot2>#socials{
+        width: 375;
     }
 }

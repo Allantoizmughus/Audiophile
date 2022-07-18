@@ -390,6 +390,7 @@ button:hover{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     background-color: white;
+    left: 20px;
 }
 #dropMenu>div>a{
     display: block;
@@ -407,6 +408,11 @@ button:hover{
 }
 #navIcon{
     display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
@@ -653,7 +659,7 @@ button:hover{
         top: 100px;
     }
     .product>.shop{
-        top: 130px;
+        top: 160px;
     }
 
     .shop>a{
@@ -761,6 +767,14 @@ button:hover{
     #navBar{
         margin: 0px;
     }
+    #navBar1{
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #navBar1>#title>h1{
+        margin: 0px;
+    }
     #landing{
         margin: 0px;
     }
@@ -801,15 +815,16 @@ button:hover{
         margin-left: 0px;
     }
     #earphonesDisplay{
-        max-width: 370px;
+        max-width: 360px;
         margin-left: 0px;
-        margin-bottom: 200px;
+        margin-bottom: 250px;
         gap: 0px;
     }
 
     #earphonesDisplay>#image2>img{
         width: 360px;
         margin-bottom: 0px;
+        margin-left: 0px;
     }
     #earphonesDisplay>#earphonesDetails{
         width: 360px;
@@ -817,7 +832,7 @@ button:hover{
         margin-top: 0px;
     }
     #audioGear{
-        max-width: 370px;
+        max-width: 360px;
         margin-left: 0px;
         margin-top: 400px;
     }
@@ -832,13 +847,34 @@ button:hover{
         width: fit-content;
     }
     #audioGearImage{
-        max-width: 370px;
+        max-width: 360px;
     }
     #audioGearImage>img{
         max-width: 360px;
+        margin-left: 0px;
+    }
+    #footer{
+        margin: 0px;
+    }
+    #foot1{
+        margin: 0px;
+    }
+    #navBar2{
+        margin: 0px;
+    }
+    #footNav{
+        width: fit-content;
+        margin: 0px;
+    }
+    #footNav>div{
+        margin: 0px;
     }
     #foot2Para{
-        width: 375px;
+        width: 360px;
+        margin: 0px;
+    }
+    #foot2Para>p{
+        margin-left: 0px;
     }
     #foot2>#socials{
         width: 375;
